@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+<title>Товар</title>
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+#grad1 {
+  height: 900px;
+  background-color: red; 
+  background-image: linear-gradient(black, white); 
+  ul>
+  <li><a class="active" href="#home">Основна сторінка</a></li>
+  <li><a href="#news">Товар</a></li>
+  <li><a href="#contact">Коментарі</a></li>
+</ul>
+<ul>
+<body>
+<h1>Продається Компютер HELLCAT PRO</h1>
+<p>Компютер продається томущо не потрібний.</p>
+<h2>Характеристики</h2>
+<p>Vinga Graphyte / Ryzen 3 1200 3.4GHz / Боксовый кулер / 8GB DDR4-2133 RAM / GeForce GTX 1050, 2GB / Socket AM4 / 500W Aerocool / 500GB HDD</p>
+<h2>Фото</h2>
+<div class="gallary">
+  <a target="_blank" href="img_1_jpg">
+    <img src="1" alt="img_1_jpg" width="600" height="400">
+  </a>
+</body>
+</html>
+
+
+
